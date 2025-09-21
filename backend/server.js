@@ -23,7 +23,7 @@ app.use(express.json()); // to parse json body
 app.use(cookieParser());
 app.use(
     cors({
-        origin: 'https://study-notion-one-henna.vercel.app', // frontend link
+        origin: 'https://study-notion-one-henna.vercel.app/',
         // origin: "*",
         credentials: true
     })
