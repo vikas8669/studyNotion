@@ -24,7 +24,7 @@ app.use(cookieParser());
 app.use(
     cors({
         origin: 'https://study-notion-one-henna.vercel.app', // frontend link
-        origin: "*",
+        // origin: "*",
         credentials: true
     })
 );
